@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Full Interactive Project</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<h1>Full Interactive Project 🎯</h1>
+
+		<!-- Event Handling Section -->
+		<h2>1. Event Handling 🎈</h2>
+		<button id="clickButton">Click me!</button>
+		<button id="secretButton">Secret Button</button>
+		<br />
+		<input type="text" id="keypressInput" placeholder="Type something..." />
+		<div id="hoverDiv">Hover me!</div>
+
+		<!-- Interactive Elements Section -->
+		<h2>2. Interactive Elements 🎮</h2>
+		<button id="colorChangeButton">Change Color/Text</button>
+
+		<div id="gallery" style="margin-top: 20px">
+			<img
+				id="galleryImage"
+				src="https://via.placeholder.com/150"
+				alt="Gallery"
+			/>
+			<br />
+			<button id="nextImageButton">Next Image</button>
+		</div>
+
+		<div class="tabs">
+			<button class="tabButton" data-tab="1">Tab 1</button>
+			<button class="tabButton" data-tab="2">Tab 2</button>
+			<div id="tabContent"></div>
+		</div>
+
+		<!-- Form Validation Section -->
+		<h2>3. Form Validation 📋✅</h2>
+		<form id="signupForm">
+			<input type="text" id="email" placeholder="Email" required />
+			<br />
+			<input
+				type="password"
+				id="password"
+				placeholder="Password"
+				required
+			/>
+			<br />
+			<button type="submit">Submit</button>
+			<div id="errorMessages"></div>
+		</form>
+
+		<script src="script.js"></script>
+	</body>
+</html>
